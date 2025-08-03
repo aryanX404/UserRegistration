@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loginpage{
+    /* background: url('../images/login-bg.jpg') no-repeat; */
+    background-color: rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 5rem; */
+}
+
+.left-container, .right-container
+{
+    border-top: 1px solid rgba(255, 255, 255, 0.886);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.886);
+    background: transparent;
+    backdrop-filter: blur(20px);
+    width: 35vw;
+    color: white;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* color: white; */
+    /* box-shadow: 3px 3px 10px hsl(0, 0%, 88%); */
+}
+.left-container h1{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+
+}
+
+.login-form{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-form input{
+    width: 60%;
+    padding: 12px 15px;
+    border-radius: 10rem;
+    border: 1px solid rgba(255, 255, 255, 0.586);
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.login-form input:not([type='submit']):focus {
+  outline: none; /* Removes the default outline */
+  border: 1px solid hsl(290, 100%, 40%); 
+  box-shadow: 0px 0px 8px hsl(290, 100%, 40%); /* Creates the blue glow effect */
+}
+
+
+.form-title{
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.forget-pass{
+    margin: 5px 0px;
+    width: 60%;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: right;
+    padding: 0px 10px;
+}
+
+.forget-pass:hover{
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
+.btn-div{
+    display: flex;
+    width: 60%;
+    /* gap: 5px; */
+    margin-bottom: 27px;
+}
+
+
+
+.btn ,.submit-btn{
+    width: 60%;
+    background-color: rgb(1, 14, 53);
+    border-radius: 1rem;
+    padding: 12px 15px;
+    color: white;
+    outline: none;
+    border: 1px solid transparent;
+    transition: all 0.3s ease 0s;
+}
+
+.submit-btn:hover{
+    outline: none; /* Removes the default outline */
+    border: 1px solid hsl(290, 100%, 40%); 
+    box-shadow: 0px 0px 8px hsl(290, 100%, 40%); /* Creates the blue glow effect */
+}
+
+
+
+.disable{
+    background-color: transparent;
+}
+
+.active{
+  outline: none; /* Removes the default outline */
+  border: 1px solid hsl(290, 100%, 40%); 
+  box-shadow: 0px 0px 8px hsl(290, 100%, 40%); /* Creates the blue glow effect */
+}
+
+.btn:hover{
+    cursor: pointer;
+    /* background-color: rgb(0, 29, 116); */
+}
+.disable:hover{
+    /* cursor: not-allowed; */
+    background-color: transparent;
+}
+
+
+.no-account span{
+  
+    padding: 2px;
+    text-decoration: none;
+}
+.no-account span:hover{
+    /* text-decoration: underline; */
+    color: rgba(255, 255, 255, 0.611);
+    cursor: pointer;
+}
+
+.danger{
+    color: rgb(255, 93, 93);
+}
+.success{
+    color: rgb(0, 165, 28);
+}
+
+.message{
+    padding: 5px;
+    margin-top: 10px;
+}
