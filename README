@@ -1,0 +1,24 @@
+# User Registration and Login System
+
+A simple **Login/Signup web application** built with **Node.js, Express, MongoDB (Mongoose)** and **React**.  
+This project allows users to **register, log in, and store user data securely in MongoDB**.
+
+---
+
+## 🚀 Features
+- User **signup** with email & password  
+- User **login** with authentication  
+- Passwords stored securely using **bcrypt hashing**  
+- MongoDB with **Mongoose** for schema and data storage  
+- Express backend API  
+- React frontend for UI  
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React, Fetch, CSS  
+- **Backend:** Node.js, Express.js, Mongoose  
+- **Database:** MongoDB  
+
+---
+

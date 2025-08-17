@@ -18,8 +18,8 @@
 
 .left-container, .right-container
 {
-    border-top: 1px solid rgba(255, 255, 255, 0.886);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.886);
+    /* border-top: 1px solid rgba(255, 255, 255, 0.886);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.886); */
     background: transparent;
     backdrop-filter: blur(20px);
     width: 35vw;
